@@ -4,7 +4,7 @@ Node.js WhatsApp bot built with the Baileys library, terminal QR authentication,
 
 ## Status
 
-Bot prototype
+Node.js messaging application
 
 ## Key capabilities
 
@@ -35,14 +35,13 @@ npm run dev
 
 ## Configuration
 
-No safe environment template is currently included. Review the integration modules before deployment and document the required variables in an `.env.example` file. Keep all real credentials outside version control.
+External service credentials must be supplied through local or deployment environment variables. Add a sanitized `.env.example` before onboarding additional developers. Keep all real credentials outside version control.
 
 ## Project structure
 
 | Path | Purpose |
 | --- | --- |
 | `.github/` | GitHub workflows and repository automation |
-| `.github /` | Project files |
 
 ## Security
 
